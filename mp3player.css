@@ -1,0 +1,143 @@
+
+#mp3player {
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+#title {
+	background: rgba(0, 0, 0, 0) url("player.png") repeat scroll 0 404px;
+	box-sizing: border-box;
+	color: #FFF;
+	font-size: 14px;
+	height: 30px;
+	padding: 0 3px;
+    position: relative;
+	width: 200px;
+	overflow: hidden;
+}
+#player {
+    background: rgba(0, 0, 0, 0) url("player.png") repeat scroll 0 0;
+    color: #fff;
+    height: 50px;
+    margin-top: 120px;
+    position: relative;
+    width: 200px;
+}
+#playerbar {
+	height: 28px;
+	padding-top: 8px;
+}
+#playerbar:after {
+	content: "";
+	clear: both;
+}
+#playerbtn {
+	float: left;
+	height: 30px;
+}
+#playerbtn:after {
+	content: "";
+	clear: both;
+}
+#playerbtn span {
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0 2px;
+	text-indent: -9999px;
+}
+#prev {
+	background-image: url("player.png");
+	background-position: 0 -61px;
+	width: 25px;
+	height: 25px;
+}
+#prev:hover {
+	background-position: -27px -61px;
+}
+#next {
+	background-image: url("player.png");
+	background-position: 76px -61px;
+	width: 25px;
+	height: 25px;
+}
+#next:hover {
+	background-position: 49px -61px;
+}
+#play {
+	background-image: url("player.png");
+	background-position: 72px -91px;
+	width: 27px;
+	height: 27px;
+}
+#play:hover {
+	background-position: 43px -91px;
+}
+#pause {
+	background-image: url("player.png");
+	background-position: 0 -91px;
+	width: 27px;
+	height: 27px;
+}
+#pause:hover {
+	background-position: -29px -91px;
+}
+#volume {
+	float: left;
+	padding-top: 9px;
+}
+#volume span {
+	margin: 0;
+}
+#voldown {
+	background-image: url("player.png");
+	background-position: -116px -93px;
+	width: 14px;
+	height: 14px;
+}
+#voldown:hover {
+	background-position: -116px -109px;
+}
+#volup {
+	background-image: url("player.png");
+	background-position: -112px -55px;
+	width: 16px;
+	height: 16px;
+}
+#volup:hover {
+	background-position: -112px -73px;
+}
+#time {
+	float: right;
+    font-size: 10px;
+	height: 18px;
+    margin-right: 3px;
+	padding-top: 10px;
+}
+#time span {
+	display: inline;
+	line-height: 12px;
+}
+#progress {
+    background: black none repeat scroll 0 0;
+    height: 10px;
+}
+#loaded {
+    background: gray none repeat scroll 0 0;
+    height: 8px;
+    margin-top: 1px;
+    z-index: 5;
+}
+#curprog {
+    background: white none repeat scroll 0 0;
+    height: 8px;
+    margin-top: -8px;
+    z-index: 10;
+}
+#mp3source {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<script src="jquery.min.js"></script>
+	<link text="text/css" rel="stylesheet" href="mp3player.css" ></link>
+</head>
+<body>
+	<div id="music">
+	
+	</div>
+	<script>
+	var PLAYLISTSRC = "./foo.xml";
+	</script>
+	<script src="jquery.mp3player.js"></script>
+	<script>
+		jQuery("#music").mp3player(PLAYLISTSRC);
+	</script>
+</body>
+</html>
