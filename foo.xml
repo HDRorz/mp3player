@@ -15,6 +15,11 @@
 	</mp3config>
 	<trackList>
 		<track>
+			<annotation>春奈るな - Startear</annotation>
+			<location>http://localhost//mp3player/source/Startear.mp3</location>
+			<image>http://localhost//mp3player/source/startear.jpg</image>
+		</track>
+		<track>
 			<annotation>水樹奈々 - 深愛</annotation>
 			<location>http://localhost//mp3player/source/深爱.mp3</location>
 			<image>http://localhost//mp3player/source/深爱.jpg</image>

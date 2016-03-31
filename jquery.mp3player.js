@@ -5,8 +5,7 @@
  * 
  * discuz空间音乐播放器html5实现
  *
- * xml 样例
- * <playlist version="1"><mp3config><showdisplay>true</showdisplay><autostart>true</autostart><showplaylist>true</showplaylist><shuffle>true</shuffle><repeat>all</repeat><volume>100</volume><linktarget>_top</linktarget><backcolor>0xD2FF8C</backcolor><frontcolor>0x1F43FF</frontcolor><lightcolor>0x1F43FF</lightcolor><jpgfile/><callback/></mp3config><trackList><track><annotation>Beautiful World.mp3</annotation><location>http://localhost//Beautiful World.mp3</location><image>static/image/common/nophotosmall.gif</image></track><track><annotation>Dreamer.mp3</annotation><location>http://localhost//Dreamer.mp3</location><image>static/image/common/nophotosmall.gif</image></track><track><annotation>Fight 4 Real.mp3</annotation><location>http://localhost//Fight 4 Real.mp3</location><image>static/image/common/nophotosmall.gif</image></track></trackList></playlist>
+ * xml 样例见foo.xml
  * 
  *
  */
@@ -58,17 +57,17 @@ var playerhtml = '\
 	</div> \
 ';
 
-PLAYLIST = new Object();
+var PLAYLIST = new Object();
 PLAYLIST['title'] = new Array();
 PLAYLIST['image'] = new Array();
 PLAYLIST['duration'] = new Array();
-SETTING = new Object();
+var SETTING = new Object();
 var timeoutProcess;
 
 
 //播放器初始化
 var _init = function(data) {
-	console.log(data);
+	//console.log(data);
 	
 	$('#mp3player').mouseover(function() {
 		clearTimeout(timeoutProcess);
@@ -161,7 +160,7 @@ var _play = function(index) {
 	if(isNaN(index)) {
 		return;
 	}
-	music = PLAYLIST['source'][index];
+	var music = PLAYLIST['source'][index];
 	
 	$('#play').hide();
 	$('#pause').show();
