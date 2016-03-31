@@ -1,18 +1,19 @@
 # mp3player
 html5 audio player for discuz home
 
-ÒòÎªdiscuz¿Õ¼äµÄÒôÀÖ²¥·ÅÆ÷±»±¬³ö¿çÕ¾½Å±¾Â©¶´ºó¹Ù·½É¾³ıÁËmp3player.swf£¬Ö»ÁôÏÂ¿ÕÎÄ¼ş¡£Ó¦ÂÛÌ³Ë®ÓÑÒªÇóĞÂĞ´ÁËÒ»¸öÒôÀÖ²¥·ÅÆ÷£¬»ùÓÚhtml5µÄ<audio>±êÇ©ÊµÏÖ£¬Ê¹ÓÃxml»ñÈ¡²¥·ÅÁĞ±íµÈĞÅÏ¢¡£²¥·ÅÎÄ¼ş×îºÃÊÇMP3¸ñÊ½£¬±Ï¾¹Ö§³Ö±È½ÏÈ«Ãæ£¬IE9+¡¢FF22+ on winvista£¨xpºÃÏñ²»ÄÜ·Å£¿£©¡£
+å› ä¸ºdiscuzç©ºé—´çš„éŸ³ä¹æ’­æ”¾å™¨è¢«çˆ†å‡ºè·¨ç«™è„šæœ¬æ¼æ´åå®˜æ–¹åˆ é™¤äº†mp3player.swfï¼Œåªç•™ä¸‹ç©ºæ–‡ä»¶ã€‚åº”è®ºå›æ°´å‹è¦æ±‚æ–°å†™äº†ä¸€ä¸ªéŸ³ä¹æ’­æ”¾å™¨ï¼ŒåŸºäºhtml5çš„<audio>æ ‡ç­¾å®ç°ï¼Œä½¿ç”¨xmlè·å–æ’­æ”¾åˆ—è¡¨ç­‰ä¿¡æ¯ã€‚æ’­æ”¾æ–‡ä»¶æœ€å¥½æ˜¯MP3æ ¼å¼ï¼Œæ¯•ç«Ÿæ”¯æŒæ¯”è¾ƒå…¨é¢ï¼ŒIE9+ã€FF22+ on winvistaï¼ˆxpå¥½åƒä¸èƒ½æ”¾ï¼Ÿï¼‰ã€‚
 
-Ç¶ÈëdiscuzÊ¹ÓÃĞèÒªĞŞ¸Äfunction_space.phpµÄ567ĞĞ£¬¸ÄÎª£º
-$playlisturl = >"home.php?mod=space&uid=$uid&do=index&op=getmusiclist&hash=$authcode$view&t=".TIMESTAMP;
->$html = <<<EOD
-><script src="\\template\\xxx\js\jquery.min.js"></script>
-><script src="\\template\\xxx\js\mp3player\jquery.mp3player.js"></script>
-><script>
->	jQuery.noConflict();
->	jQuery('#music_content div').eq(0).mp3player("$playlisturl");
-></script>
-><link text="text/css" rel="stylesheet" href="\\template\\xxx\js\mp3player\mp3player.css">
->EOD;
+åµŒå…¥discuzä½¿ç”¨éœ€è¦ä¿®æ”¹function_space.phpçš„567è¡Œï¼Œæ”¹ä¸ºï¼š
+>
+    $playlisturl = >"home.php?mod=space&uid=$uid&do=index&op=getmusiclist&hash=$authcode$view&t=".TIMESTAMP;
+    $html = <<<EOD
+      <script src="\\template\\xxx\js\jquery.min.js"></script>
+      <script src="\\template\\xxx\js\mp3player\jquery.mp3player.js"></script>
+      <script>
+    	  jQuery.noConflict();
+    	  jQuery('#music_content div').eq(0).mp3player("$playlisturl");
+      </script>
+      <link text="text/css" rel="stylesheet" href="\\template\\xxx\js\mp3player\mp3player.css">
+    EOD;
 
 [Example on discuz](http://bbs.niuyou5.com/home.php?mod=space&uid=2079457)
