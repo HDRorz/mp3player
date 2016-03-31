@@ -5,7 +5,7 @@ html5 audio player for discuz home
 
 嵌入discuz使用需要修改function_space.php的567行，改为：
 >
-    $playlisturl = >"home.php?mod=space&uid=$uid&do=index&op=getmusiclist&hash=$authcode$view&t=".TIMESTAMP;
+    $playlisturl = "home.php?mod=space&uid=$uid&do=index&op=getmusiclist&hash=$authcode$view&t=".TIMESTAMP;
     $html = <<<EOD
       <script src="\\template\\xxx\js\jquery.min.js"></script>
       <script src="\\template\\xxx\js\mp3player\jquery.mp3player.js"></script>
