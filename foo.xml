@@ -21,18 +21,18 @@
 		</track>
 		<track>
 			<annotation>水樹奈々 - 深愛</annotation>
-			<location>http://localhost//mp3player/source/深爱.mp3</location>
-			<image>http://localhost//mp3player/source/深爱.jpg</image>
+			<location>http://localhost//mp3player/source/Shin'ai.mp3</location>
+			<image>http://localhost//mp3player/source/Shin'ai.jpg</image>
 		</track>
 		<track>
 			<annotation>AiRl - Dreamer</annotation>
 			<location>http://localhost//mp3player/source/Dreamer.mp3</location>
-			<image>http://localhost//mp3player/source/dreamer.mp3</image>
+			<image>http://localhost//mp3player/source/dreamer.jpg</image>
 		</track>
 		<track>
 			<annotation>ALTIMA - Fight 4 Real</annotation>
 			<location>http://localhost//mp3player/source/Fight 4 Real.mp3</location>
-			<image>http://localhost//mp3player/source/fight4real.mp3</image>
+			<image>http://localhost//mp3player/source/fight4real.jpg</image>
 		</track>
 	</trackList>
 </playlist>
